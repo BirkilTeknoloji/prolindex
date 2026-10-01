@@ -56,10 +56,7 @@ const Footer = () => {
                 <i className="fa-solid fa-location-dot"></i>
                 <span>Unit 2104, 21/F Mongkok Comm Ctr<br/>16 Argyle St Mongkok<br/>Kowloon, Hong Kong</span>
               </li>
-              <li>
-                <i className="fa-solid fa-phone"></i>
-                <a href="tel:+971585278323">+971 58 527 8323</a>
-              </li>
+             
               <li>
                 <i className="fa-solid fa-envelope"></i>
                 <a href="mailto:info@prolindex.com">info@prolindex.com</a>

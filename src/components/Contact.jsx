@@ -41,15 +41,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="contact-item">
-              <div className="contact-item-icon">
-                <i className="fas fa-phone-alt" />
-              </div>
-              <div>
-                <h4>Phone</h4>
-                <p>+971 58 527 8323</p>
-              </div>
-            </div>
+          
 
             <div className="contact-item">
               <div className="contact-item-icon">
