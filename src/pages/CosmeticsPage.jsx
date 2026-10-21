@@ -37,6 +37,7 @@ const CosmeticsPage = () => {
       badge: "Active Serums & Anti-Aging",
       categoryTag: "OEM / ODM Formulation",
       desc: "High-potency clean skincare powered by stabilized vitamin complexes, hyaluronic acid, and peptides for clinical beauty brands.",
+      tags: ["Active Vitamin Serums", "Clinical Clean Beauty"],
       features: [
         "High-performance hydration, brightening, and anti-aging serum formulations",
         "Clean-beauty certified, paraben-free, cruelty-free, and vegan compliant",
@@ -51,6 +52,7 @@ const CosmeticsPage = () => {
       badge: "Salon-Grade Formulations",
       categoryTag: "OEM / ODM Formulation",
       desc: "Salon-grade restorative keratin complexes, botanical scalp elixirs, and sulfate-free color-protection shampoos.",
+      tags: ["Keratin Restorative Bonding", "Sulfate-Free Salon Care"],
       features: [
         "Sulfate-free, silicone-free, and color-safe nourishing shampoos and conditioners",
         "Deep restorative bonding masks, keratin treatments, and leave-in elixirs",
@@ -65,6 +67,7 @@ const CosmeticsPage = () => {
       badge: "Pigments & Aesthetics",
       categoryTag: "OEM / ODM Formulation",
       desc: "Rich pigment mineral foundations, velvet-matte lipsticks, and breathable hybrid formulas blending skincare actives.",
+      tags: ["Weightless Mineral Pigments", "Custom Undertone Matching"],
       features: [
         "Weightless mineral powders, long-wearing foundations, and BB/CC hybrid bases",
         "Hydrating satin and velvet-matte lipsticks, glosses, and plumping balms",
@@ -83,6 +86,7 @@ const CosmeticsPage = () => {
       badge: "COSMOS / ECOCERT Certified",
       categoryTag: "Raw Materials & Actives",
       desc: "Ethical procurement of cold-pressed seed oils, floral distillates, and active botanical extracts from sustainable farming cooperatives.",
+      tags: ["COSMOS / ECOCERT Certified", "Cold-Pressed Seed Oils"],
       features: [
         "COSMOS and ECOCERT certified organic plant extracts and floral distillates",
         "Cold-pressed jojoba, argan, rosehip, marula, and prickly pear seed oils",
@@ -97,6 +101,7 @@ const CosmeticsPage = () => {
       badge: "Clinical-Grade Actives",
       categoryTag: "Raw Materials & Actives",
       desc: "Scientifically validated multi-molecular hyaluronic acids, bio-fermented peptides, bakuchiol, and stable Vitamin C.",
+      tags: ["Bio-Fermented Actives", "Multi-Molecular Hyaluronic"],
       features: [
         "Pharmaceutical-grade niacinamide, bakuchiol, and stabilized ascorbic acid",
         "Multi-weight hyaluronic acid complexes for deep epidermic penetration",
@@ -111,6 +116,7 @@ const CosmeticsPage = () => {
       badge: "PCR & Recyclable Glass",
       categoryTag: "Packaging Solutions",
       desc: "Turnkey primary and secondary packaging focusing on post-consumer recycled (PCR) plastics, airless dispensers, and glass droppers.",
+      tags: ["PCR & Recyclable Glass", "Airless Dispenser Systems"],
       features: [
         "High-clarity glass dropper bottles, flint jars, and refillable airless pump systems",
         "Ocean-bound and post-consumer recycled (PCR) plastics from 30% to 100%",
@@ -129,6 +135,7 @@ const CosmeticsPage = () => {
       badge: "ISO 17025 Accredited",
       categoryTag: "Quality Assurance",
       desc: "ISO 17025 laboratory verification for heavy metals, preservative challenge testing (PET), and accelerated stability.",
+      tags: ["ISO 17025 Accredited", "Pathogen & Stability Testing"],
       features: [
         "ISO 17025 accredited laboratory testing for heavy metals and microbial pathogens",
         "Preservative Challenge Testing (PET) and real-time/accelerated stability testing",
@@ -143,6 +150,7 @@ const CosmeticsPage = () => {
       badge: "Global Compliance Dossiers",
       categoryTag: "Regulatory & Compliance",
       desc: "Navigating cross-border regulatory dossiers for seamless market authorization across Europe, North America, the GCC, and Asia.",
+      tags: ["EU CPNP & FDA MoCRA", "Full PIF & CPSR Dossiers"],
       features: [
         "European Union Cosmetic Products Notification Portal (CPNP) management",
         "US FDA Modernization of Cosmetics Regulation Act (MoCRA) registration & listings",
@@ -157,6 +165,7 @@ const CosmeticsPage = () => {
       badge: "IFRA Standards / Cold-Chain",
       categoryTag: "Specialized Fulfillment",
       desc: "IFRA-compliant perfume compounding and luxury spa care with temperature-controlled bonded warehousing in Hong Kong.",
+      tags: ["IFRA Compounding", "Climate-Controlled Logistics"],
       features: [
         "IFRA-compliant bespoke perfume compounding and ambient home fragrance lines",
         "Exfoliating botanical body scrubs, nourishing butters, and therapeutic bath soaks",
@@ -192,28 +201,28 @@ const CosmeticsPage = () => {
             {/* Quick Metrics Bar */}
             <div className="it-metrics-bar">
               <div className="it-metric-pill">
-                <i className="fa-solid fa-certificate" style={{ color: '#9333ea' }}></i>
+                <i className="fa-solid fa-certificate" style={{ color: '#9333ea', background: 'rgba(147, 51, 234, 0.1)' }}></i>
                 <div>
                   <strong>ISO 22716 GMP</strong>
                   <span>Certified Manufacturing</span>
                 </div>
               </div>
               <div className="it-metric-pill">
-                <i className="fa-solid fa-leaf" style={{ color: '#16a34a' }}></i>
+                <i className="fa-solid fa-leaf" style={{ color: '#16a34a', background: 'rgba(22, 163, 74, 0.1)' }}></i>
                 <div>
                   <strong>100% Clean Beauty</strong>
                   <span>Cruelty-Free & Vegan</span>
                 </div>
               </div>
               <div className="it-metric-pill">
-                <i className="fa-solid fa-flask-vial" style={{ color: '#9333ea' }}></i>
+                <i className="fa-solid fa-flask-vial" style={{ color: '#9333ea', background: 'rgba(147, 51, 234, 0.1)' }}></i>
                 <div>
                   <strong>50+ Proven Actives</strong>
                   <span>Custom Formulation Library</span>
                 </div>
               </div>
               <div className="it-metric-pill">
-                <i className="fa-solid fa-globe" style={{ color: '#2563eb' }}></i>
+                <i className="fa-solid fa-globe" style={{ color: '#2563eb', background: 'rgba(37, 99, 235, 0.1)' }}></i>
                 <div>
                   <strong>EU & FDA Compliant</strong>
                   <span>MoCRA & CPNP Ready</span>
@@ -225,7 +234,7 @@ const CosmeticsPage = () => {
       </section>
 
       {/* CATEGORY 1: Private Label & Custom Formulation */}
-      <section className="section it-category-block" style={{ padding: '40px 0' }}>
+      <section className="section it-category-block cat-cosmetics-1" style={{ padding: '50px 0' }}>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="it-category-header-banner cosmetics-banner fade-up" ref={cat1Fade}>
             <div className="it-cat-icon-badge cosmetics-banner-icon">
@@ -268,10 +277,10 @@ const CosmeticsPage = () => {
                   <p className="compact-card-desc">{srv.desc}</p>
 
                   <div className="compact-card-tags">
-                    {srv.features.slice(0, 2).map((feat, fIdx) => (
-                      <span key={fIdx} className="compact-tag cosmetics-tag">
-                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '4px' }}></i>
-                        {feat.split(' ').slice(0, 3).join(' ')}
+                    {(srv.tags || srv.features.slice(0, 2)).map((tag, tIdx) => (
+                      <span key={tIdx} className="compact-tag cosmetics-tag">
+                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '5px' }}></i>
+                        {tag}
                       </span>
                     ))}
                   </div>
@@ -288,7 +297,7 @@ const CosmeticsPage = () => {
       </section>
 
       {/* CATEGORY 2: Raw Material Sourcing & Active Ingredients */}
-      <section className="section it-category-block" style={{ padding: '40px 0' }}>
+      <section className="section it-category-block cat-cosmetics-2" style={{ padding: '50px 0' }}>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="it-category-header-banner cosmetics-banner fade-up" ref={cat2Fade}>
             <div className="it-cat-icon-badge cosmetics-banner-icon">
@@ -331,10 +340,10 @@ const CosmeticsPage = () => {
                   <p className="compact-card-desc">{srv.desc}</p>
 
                   <div className="compact-card-tags">
-                    {srv.features.slice(0, 2).map((feat, fIdx) => (
-                      <span key={fIdx} className="compact-tag cosmetics-tag">
-                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '4px' }}></i>
-                        {feat.split(' ').slice(0, 3).join(' ')}
+                    {(srv.tags || srv.features.slice(0, 2)).map((tag, tIdx) => (
+                      <span key={tIdx} className="compact-tag cosmetics-tag">
+                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '5px' }}></i>
+                        {tag}
                       </span>
                     ))}
                   </div>
@@ -351,7 +360,7 @@ const CosmeticsPage = () => {
       </section>
 
       {/* CATEGORY 3: Global Regulatory Compliance, QA & Market Entry */}
-      <section className="section it-category-block" style={{ padding: '40px 0' }}>
+      <section className="section it-category-block cat-cosmetics-3" style={{ padding: '50px 0' }}>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="it-category-header-banner cosmetics-banner fade-up" ref={cat3Fade}>
             <div className="it-cat-icon-badge cosmetics-banner-icon">
@@ -394,10 +403,10 @@ const CosmeticsPage = () => {
                   <p className="compact-card-desc">{srv.desc}</p>
 
                   <div className="compact-card-tags">
-                    {srv.features.slice(0, 2).map((feat, fIdx) => (
-                      <span key={fIdx} className="compact-tag cosmetics-tag">
-                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '4px' }}></i>
-                        {feat.split(' ').slice(0, 3).join(' ')}
+                    {(srv.tags || srv.features.slice(0, 2)).map((tag, tIdx) => (
+                      <span key={tIdx} className="compact-tag cosmetics-tag">
+                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '5px' }}></i>
+                        {tag}
                       </span>
                     ))}
                   </div>

@@ -160,8 +160,8 @@ const HomePage = () => {
               <div className="service-card-decor" aria-hidden="true">
                 <img src={prolindexIcon} alt="" />
               </div>
-              <div className="service-img-preview placeholder-cosmetics">
-                <i className="fa-solid fa-spa"></i>
+              <div className="service-img-preview">
+                <img src="/cosmetics/unbranded-cosmetics.jpg" alt="Cosmetics" />
               </div>
               <div className="service-icon"><i className="fa-solid fa-flask-vial"></i></div>
               <h3>Cosmetics</h3>
@@ -173,8 +173,8 @@ const HomePage = () => {
               <div className="service-card-decor" aria-hidden="true">
                 <img src={prolindexIcon} alt="" />
               </div>
-              <div className="service-img-preview placeholder-coffee">
-                <i className="fa-solid fa-mug-hot"></i>
+              <div className="service-img-preview">
+                <img src="/coffee/commercial-trading.jpg" alt="Coffee Trading" />
               </div>
               <div className="service-icon"><i className="fa-solid fa-leaf"></i></div>
               <h3>Coffee Trading</h3>

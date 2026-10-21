@@ -37,6 +37,7 @@ const CoffeeTradingPage = () => {
       badge: "SCA 86–89 Specialty",
       categoryTag: "Single Origin Procurement",
       desc: "Heirloom & SL varietals from Yirgacheffe, Sidama, and Nyeri. Celebrated for jasmine floral, bergamot, and vibrant stone-fruit acidity.",
+      tags: ["SCA 86+ Microlots", "Yirgacheffe & Sidama Heirloom"],
       features: [
         "Grade 1 and Grade 2 washed and natural processed high-altitude microlots (1,800m–2,200m)",
         "Distinctive floral, black tea, candied citrus, and wild berry sensory flavor architecture",
@@ -51,6 +52,7 @@ const CoffeeTradingPage = () => {
       badge: "Commercial & Specialty Estates",
       categoryTag: "Single Origin Procurement",
       desc: "Balanced Arabica estate lots from Huila, Antigua, and Cerrado. Delivering caramel sweetness, roasted almond, and smooth chocolate body.",
+      tags: ["Strictly High Grown (SHB)", "Rainforest Alliance Estates"],
       features: [
         "Castillo, Caturra, and Yellow Bourbon varietals cultivated at volcanic altitudes",
         "Brazil Santos NY2/Screen 17/18, Colombia Supremo 17/18, and Guatemala SHB EP",
@@ -65,6 +67,7 @@ const CoffeeTradingPage = () => {
       badge: "Wet-Hulled & Fine Robusta",
       categoryTag: "Single Origin Procurement",
       desc: "Wet-hulled Sumatra Mandheling TP, PNG Sigri estate Typica, and fine screen-18 washed Robusta for crema-dense espresso.",
+      tags: ["Triple-Picked Mandheling", "Fine Washed Robusta Screen 18"],
       features: [
         "Sumatra Mandheling Grade 1 TP (Triple Picked) with deep cedar, spice, and herbal body",
         "Papua New Guinea Western Highlands Arona and Sigri estate Typica lots",
@@ -83,6 +86,7 @@ const CoffeeTradingPage = () => {
       badge: "Full Container Loads (FCL)",
       categoryTag: "Bulk Commodity Trade",
       desc: "Standardized 20ft container loads (300–320 bags) and consolidated LCL freight for commercial roasters and private brands.",
+      tags: ["20ft & 40ft Containers", "GCA Standards Verified"],
       features: [
         "Turnkey supply agreements for 20ft and 40ft ocean container volumes worldwide",
         "Uniform green coffee grading adhering strictly to Green Coffee Association (GCA) standards",
@@ -97,6 +101,7 @@ const CoffeeTradingPage = () => {
       badge: "Price Risk Mitigation",
       categoryTag: "Trade Finance & Risk",
       desc: "Commodity price risk management, differential-based forward contracts, and immediate spot warehouse inventory access.",
+      tags: ["Differential Hedging", "Bonded Warehouse Spot Stock"],
       features: [
         "Differential contracts benchmarked against New York Arabica and London Robusta markets",
         "Forward hedging mechanisms protecting roasters against unexpected crop price surges",
@@ -111,6 +116,7 @@ const CoffeeTradingPage = () => {
       badge: "Bespoke Blend Formulation",
       categoryTag: "Consulting & Blending",
       desc: "Signature green bean blend engineering, roast profile development, COGS optimization, and seasonal cup consistency.",
+      tags: ["Bespoke Espresso Profiles", "Roastery COGS Optimization"],
       features: [
         "Bespoke espresso foundation blends combining heavy-crema bodies with vibrant top notes",
         "Seasonal rotation matrices maintaining cup uniformity throughout micro-harvest shifts",
@@ -129,6 +135,7 @@ const CoffeeTradingPage = () => {
       badge: "Licensed Q-Grader Lab",
       categoryTag: "Quality Assurance",
       desc: "Strict blind sensory cupping by licensed Q-Graders, digital moisture analyzer verification (10.0%–11.5%), and water activity testing.",
+      tags: ["Licensed Q-Grader Cupping", "10.0%–11.5% Moisture Verified"],
       features: [
         "Blind cupping evaluating aroma, flavor, aftertaste, acidity, body, and overall balance",
         "Digital moisture analyzer verification ensuring strict 10.0%–11.5% export range",
@@ -143,6 +150,7 @@ const CoffeeTradingPage = () => {
       badge: "GrainPro Sealed",
       categoryTag: "Quality Preservation",
       desc: "High-barrier multi-layer hermetic liners preserving freshness, volatile aromatics, and cupping scores for up to 18 months.",
+      tags: ["GrainPro Gas-Barrier Liners", "18-Month Cupping Preservation"],
       features: [
         "Multi-layer co-extruded hermetic gas and moisture-barrier interior liners",
         "Prevents green bean aging, faded colors, and the loss of delicate volatile aromatics",
@@ -157,6 +165,7 @@ const CoffeeTradingPage = () => {
       badge: "Ocean Freight Logistics",
       categoryTag: "Supply Chain Logistics",
       desc: "Ventilated container shipping routes from origin ports directly to client roasteries with phytosanitary and customs clearance.",
+      tags: ["Ventilated Container Shipping", "Phytosanitary & Port Clearance"],
       features: [
         "Ventilated container bookings minimizing condensation (sweat) risk on maritime routes",
         "Complete export/import documentation including Phytosanitary Certificates and Bills of Lading",
@@ -192,28 +201,28 @@ const CoffeeTradingPage = () => {
             {/* Quick Metrics Bar */}
             <div className="it-metrics-bar">
               <div className="it-metric-pill">
-                <i className="fa-solid fa-mug-hot" style={{ color: '#d97706' }}></i>
+                <i className="fa-solid fa-mug-hot" style={{ color: '#d97706', background: 'rgba(217, 119, 6, 0.1)' }}></i>
                 <div>
                   <strong>SCA 84+ Certified</strong>
                   <span>Specialty Cupping Grade</span>
                 </div>
               </div>
               <div className="it-metric-pill">
-                <i className="fa-solid fa-globe" style={{ color: '#2563eb' }}></i>
+                <i className="fa-solid fa-globe" style={{ color: '#2563eb', background: 'rgba(37, 99, 235, 0.1)' }}></i>
                 <div>
                   <strong>12+ Origin Terroirs</strong>
                   <span>Direct Farm Partnerships</span>
                 </div>
               </div>
               <div className="it-metric-pill">
-                <i className="fa-solid fa-shield-halved" style={{ color: '#16a34a' }}></i>
+                <i className="fa-solid fa-shield-halved" style={{ color: '#16a34a', background: 'rgba(22, 163, 74, 0.1)' }}></i>
                 <div>
                   <strong>Hermetic Sealed</strong>
                   <span>GrainPro Aroma Protection</span>
                 </div>
               </div>
               <div className="it-metric-pill">
-                <i className="fa-solid fa-ship" style={{ color: '#d97706' }}></i>
+                <i className="fa-solid fa-ship" style={{ color: '#d97706', background: 'rgba(217, 119, 6, 0.1)' }}></i>
                 <div>
                   <strong>FCL & LCL Freight</strong>
                   <span>Global Port Deliveries</span>
@@ -225,7 +234,7 @@ const CoffeeTradingPage = () => {
       </section>
 
       {/* CATEGORY 1: Green Coffee Bean Sourcing by Origin */}
-      <section className="section it-category-block" style={{ padding: '40px 0' }}>
+      <section className="section it-category-block cat-coffee-1" style={{ padding: '50px 0' }}>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="it-category-header-banner coffee-banner fade-up" ref={cat1Fade}>
             <div className="it-cat-icon-badge coffee-banner-icon">
@@ -268,10 +277,10 @@ const CoffeeTradingPage = () => {
                   <p className="compact-card-desc">{srv.desc}</p>
 
                   <div className="compact-card-tags">
-                    {srv.features.slice(0, 2).map((feat, fIdx) => (
-                      <span key={fIdx} className="compact-tag coffee-tag">
-                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '4px' }}></i>
-                        {feat.split(' ').slice(0, 3).join(' ')}
+                    {(srv.tags || srv.features.slice(0, 2)).map((tag, tIdx) => (
+                      <span key={tIdx} className="compact-tag coffee-tag">
+                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '5px' }}></i>
+                        {tag}
                       </span>
                     ))}
                   </div>
@@ -288,7 +297,7 @@ const CoffeeTradingPage = () => {
       </section>
 
       {/* CATEGORY 2: Commercial Bulk Trade & Risk Management */}
-      <section className="section it-category-block" style={{ padding: '40px 0' }}>
+      <section className="section it-category-block cat-coffee-2" style={{ padding: '50px 0' }}>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="it-category-header-banner coffee-banner fade-up" ref={cat2Fade}>
             <div className="it-cat-icon-badge coffee-banner-icon">
@@ -331,10 +340,10 @@ const CoffeeTradingPage = () => {
                   <p className="compact-card-desc">{srv.desc}</p>
 
                   <div className="compact-card-tags">
-                    {srv.features.slice(0, 2).map((feat, fIdx) => (
-                      <span key={fIdx} className="compact-tag coffee-tag">
-                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '4px' }}></i>
-                        {feat.split(' ').slice(0, 3).join(' ')}
+                    {(srv.tags || srv.features.slice(0, 2)).map((tag, tIdx) => (
+                      <span key={tIdx} className="compact-tag coffee-tag">
+                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '5px' }}></i>
+                        {tag}
                       </span>
                     ))}
                   </div>
@@ -351,7 +360,7 @@ const CoffeeTradingPage = () => {
       </section>
 
       {/* CATEGORY 3: Quality Control, Cupping Lab & Cold-Chain Logistics */}
-      <section className="section it-category-block" style={{ padding: '40px 0' }}>
+      <section className="section it-category-block cat-coffee-3" style={{ padding: '50px 0' }}>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="it-category-header-banner coffee-banner fade-up" ref={cat3Fade}>
             <div className="it-cat-icon-badge coffee-banner-icon">
@@ -394,10 +403,10 @@ const CoffeeTradingPage = () => {
                   <p className="compact-card-desc">{srv.desc}</p>
 
                   <div className="compact-card-tags">
-                    {srv.features.slice(0, 2).map((feat, fIdx) => (
-                      <span key={fIdx} className="compact-tag coffee-tag">
-                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '4px' }}></i>
-                        {feat.split(' ').slice(0, 3).join(' ')}
+                    {(srv.tags || srv.features.slice(0, 2)).map((tag, tIdx) => (
+                      <span key={tIdx} className="compact-tag coffee-tag">
+                        <i className="fa-solid fa-circle-check" style={{ fontSize: '10px', marginRight: '5px' }}></i>
+                        {tag}
                       </span>
                     ))}
                   </div>
