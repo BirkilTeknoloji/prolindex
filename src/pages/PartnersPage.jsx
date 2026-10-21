@@ -4,9 +4,42 @@ import useFadeUp from '../components/useFadeUp';
 import prolindexLogoWhite from '../assets/logo-white.png';
 import prolindexIcon from '../assets/icon-original.png';
 
+const partners = [
+  { name: 'Allied Telesis', logo: 'allied-telesis.png' },
+  { name: 'Arista Networks', logo: 'arista-networks.png' },
+  { name: 'Axis Communications', logo: 'axis-communications.png' },
+  { name: 'AxxonSoft', logo: 'axxon.png' },
+  { name: 'Cisco', logo: 'cisco.png' },
+  { name: 'CommScope', logo: 'commscope.png' },
+  { name: 'Dahua Technology', logo: 'dahua.png' },
+  { name: 'Dell Technologies', logo: 'dell-technologies.png' },
+  { name: 'Fortinet', logo: 'fortinet.png' },
+  { name: 'Hanwha Vision', logo: 'hanwha-vision.png' },
+  { name: 'Hikvision', logo: 'hikvision.png' },
+  { name: 'HP', logo: 'hp.png' },
+  { name: 'IBM', logo: 'ibm.png' },
+  { name: 'Lenovo', logo: 'lenovo.png' },
+  { name: 'Maipu', logo: 'maipu.png' },
+  { name: 'Microsoft', logo: 'microsoft.png' },
+  { name: 'Milestone Systems', logo: 'milestone.png' },
+  { name: 'Network Optix', logo: 'network-optix.png' },
+  { name: 'Oracle', logo: 'oracle.png' },
+  { name: 'Palo Alto Networks', logo: 'palo-alto-networks.png' },
+  { name: 'Panasonic', logo: 'panasonic.png' },
+  { name: 'RubiSec', logo: 'rubi.png' },
+  { name: 'Ruckus Networks', logo: 'ruckus.png' },
+  { name: 'Seagate', logo: 'seagate.png' },
+  { name: 'Trend Micro', logo: 'trend-micro.png' },
+  { name: 'Veeam', logo: 'veeam.png' },
+  { name: 'Vigilate', logo: 'vigilate.png' },
+  { name: 'VMware', logo: 'vmware.png' },
+  { name: 'Zenitel', logo: 'zenitel.png' },
+];
+
 const PartnersPage = () => {
   const fade1 = useFadeUp();
   const fade2 = useFadeUp(150);
+  const fadeGrid = useFadeUp(200);
   const fade3 = useFadeUp(250);
 
   return (
@@ -32,6 +65,20 @@ const PartnersPage = () => {
               <h3>Expertise connected. Solutions delivered.</h3>
               <p>We work with technology partners to bring reliable, innovative solutions to every business we support across telecom, cloud, and healthcare infrastructure.</p>
             </div>
+          </div>
+
+          {/* Partner Logos Grid */}
+          <div className="partners-logos-grid fade-up" ref={fadeGrid}>
+            {partners.map((partner) => (
+              <div className="partner-logo-item" key={partner.name} title={partner.name}>
+                <img
+                  src={`/partners/${partner.logo}`}
+                  alt={partner.name}
+                  className="partner-logo-img"
+                  loading="lazy"
+                />
+              </div>
+            ))}
           </div>
           
           <div className="fade-up" ref={fade3} style={{marginTop: '60px', textAlign: 'center'}}>
