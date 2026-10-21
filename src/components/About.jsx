@@ -17,7 +17,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text fade-up" ref={ref1}>
             <span className="section-subtitle">We take care of your needs!</span>
-            <h2>Your Needs,<br />Our Priority!</h2>
+            <h2>Your Needs,<br />Our Priorityd!</h2>
             <p>
               At Prolindex, we are dedicated to understanding and prioritizing your unique
               business requirements. Our team ensures tailored solutions, responsive service,
