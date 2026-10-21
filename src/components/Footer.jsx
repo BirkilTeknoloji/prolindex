@@ -17,9 +17,8 @@ const Footer = () => {
               <img src={prolindexLogoWhite} alt="PROLINDEX LIMITED" />
             </Link>
             <p style={{ marginTop: '20px', marginBottom: '20px', color: 'rgba(255,255,255,0.78)' }}>
-              Leading the way in IT and Health Service Excellence. Empowering businesses globally with cutting-edge technology, intelligent infrastructure, and tailored solutions.
+              Leading the way in IT Excellence, Cosmetics Trade, and Coffee Supply. Empowering businesses globally with cutting-edge technology and tailored solutions.
             </p>
-            
             <div className="social-links" style={{ marginTop: '20px' }}>
               <a href="#" className="social-link" aria-label="Facebook"><i className="fa-brands fa-facebook-f"></i></a>
               <a href="#" className="social-link" aria-label="Twitter"><i className="fa-brands fa-twitter"></i></a>
@@ -41,11 +40,9 @@ const Footer = () => {
           <div className="footer-widget">
             <h4>Services</h4>
             <ul className="footer-links">
-              <li><Link to="/it-services">IT Solutions</Link></li>
-              <li><Link to="/health-services">Health Solutions</Link></li>
-              <li><Link to="/it-services">Structural Cabling</Link></li>
-              <li><Link to="/it-services">CCTV Systems</Link></li>
-              <li><Link to="/it-services">Network & Server</Link></li>
+              <li><Link to="/it-services">IT Services</Link></li>
+              <li><Link to="/cosmetics">Cosmetics</Link></li>
+              <li><Link to="/coffee-trading">Coffee Trading</Link></li>
             </ul>
           </div>
 
@@ -56,7 +53,6 @@ const Footer = () => {
                 <i className="fa-solid fa-location-dot"></i>
                 <span>Unit 2104, 21/F Mongkok Comm Ctr<br/>16 Argyle St Mongkok<br/>Kowloon, Hong Kong</span>
               </li>
-             
               <li>
                 <i className="fa-solid fa-envelope"></i>
                 <a href="mailto:info@prolindex.com">info@prolindex.com</a>
@@ -69,7 +65,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-inner">
-            <p>&copy; {new Date().getFullYear()} PROLINDEX LIMITED (ID: 81176290). All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} PROLINDEX LIMITED. All Rights Reserved.</p>
             <p className="footer-hk">Registered in Hong Kong</p>
           </div>
         </div>

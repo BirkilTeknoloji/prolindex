@@ -34,13 +34,7 @@ const ContactPage = () => {
                 Whether you have an inquiry regarding IT infrastructure, healthcare platforms, or require a technical consultation, our specialists are ready to assist.
               </p>
               
-              <div className="contact-info-card">
-                <div className="contact-info-icon"><i className="fa-solid fa-building"></i></div>
-                <div className="contact-info-text">
-                  <h4>PROLINDEX LIMITED</h4>
-                  <p>Company ID: <strong>81176290</strong></p>
-                </div>
-              </div>
+             
 
               <div className="contact-info-card">
                 <div className="contact-info-icon"><i className="fa-solid fa-location-dot"></i></div>

@@ -35,7 +35,7 @@ const AboutPage = () => {
                 <i className="fa-solid fa-certificate"></i>
                 <div>
                   <strong>Registered Corporation in Hong Kong</strong>
-                  <span>Company ID: 81176290 • Unit 2104, 21/F Mongkok Comm Ctr</span>
+                  <span>• Unit 2104, 21/F Mongkok Comm Ctr</span>
                 </div>
               </div>
               <div style={{marginTop: '30px'}}>

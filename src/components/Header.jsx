@@ -40,7 +40,8 @@ const Header = () => {
             <span className="nav-link">Services <i className="fa-solid fa-chevron-down" style={{fontSize: '11px', marginLeft: '4px'}}></i></span>
             <div className="dropdown-menu">
               <NavLink to="/it-services" className="dropdown-item">IT Services</NavLink>
-              <NavLink to="/health-services" className="dropdown-item">Health Services</NavLink>
+              <NavLink to="/cosmetics" className="dropdown-item">Cosmetics</NavLink>
+              <NavLink to="/coffee-trading" className="dropdown-item">Coffee Trading</NavLink>
             </div>
           </div>
 

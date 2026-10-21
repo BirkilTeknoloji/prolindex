@@ -6,7 +6,8 @@ import BackToTop from './components/BackToTop';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ITServicesPage from './pages/ITServicesPage';
-import HealthServicesPage from './pages/HealthServicesPage';
+import CosmeticsPage from './pages/CosmeticsPage';
+import CoffeeTradingPage from './pages/CoffeeTradingPage';
 import PartnersPage from './pages/PartnersPage';
 import ContactPage from './pages/ContactPage';
 
@@ -20,7 +21,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/it-services" element={<ITServicesPage />} />
-          <Route path="/health-services" element={<HealthServicesPage />} />
+          <Route path="/cosmetics" element={<CosmeticsPage />} />
+          <Route path="/coffee-trading" element={<CoffeeTradingPage />} />
           <Route path="/partners" element={<PartnersPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
