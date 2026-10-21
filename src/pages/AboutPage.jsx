@@ -24,7 +24,7 @@ const AboutPage = () => {
           <div className="contact-grid">
             <div className="about-left fade-up" ref={fade1}>
               <span className="section-subtitle">ABOUT PROLINDEX LIMITED</span>
-              <h2 className="section-title">Dedicated to delivering exceptional IT & health solutions.</h2>
+              <h2 className="section-title">Dedicated to delivering exceptional IT solutions.</h2>
               <p style={{marginBottom: '20px', fontSize: '18px', color: 'var(--text-dark)', lineHeight: '1.7'}}>
                 At Prolindex, we specialize in providing top-notch IT services tailored to meet the unique needs of each client. Our team of experienced professionals leverages global expertise to deliver innovative, reliable, and efficient technology solutions.
               </p>

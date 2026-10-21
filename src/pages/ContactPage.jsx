@@ -31,7 +31,7 @@ const ContactPage = () => {
               <span className="section-subtitle">GET IN TOUCH</span>
               <h2 className="section-title">We&apos;d love to hear from you</h2>
               <p style={{marginBottom: '35px', lineHeight: '1.7', fontSize: '17px'}}>
-                Whether you have an inquiry regarding IT infrastructure, healthcare platforms, or require a technical consultation, our specialists are ready to assist.
+                Whether you have an inquiry regarding IT infrastructure, corporate IT systems, or require a technical consultation, our specialists are ready to assist.
               </p>
               
              

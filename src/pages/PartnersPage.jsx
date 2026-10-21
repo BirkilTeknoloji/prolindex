@@ -63,7 +63,7 @@ const PartnersPage = () => {
             <div className="partners-brand-copy">
               <span>PARTNERING FOR PROGRESS</span>
               <h3>Expertise connected. Solutions delivered.</h3>
-              <p>We work with technology partners to bring reliable, innovative solutions to every business we support across telecom, cloud, and healthcare infrastructure.</p>
+              <p>We work with technology partners to bring reliable, innovative solutions to every business we support across telecom, cloud, and enterprise infrastructure.</p>
             </div>
           </div>
 
